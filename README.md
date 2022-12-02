@@ -1,8 +1,11 @@
-AFYA BORA REMEDIES
+# AFYA BORA REMEDIES
 
 An e-commerce site that sells herbs and health supplements
 
-Authors:
+**Authors:**
+
 NGABO Jack Donnily
+
 KABALISA Keene
+
 KIPROTICH Brian
