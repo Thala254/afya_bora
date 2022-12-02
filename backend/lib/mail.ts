@@ -3,14 +3,14 @@ import { createTransport, getTestMessageUrl } from "nodemailer";
 import { accessEnv } from "./accessEnv";
 
 const targetURL = accessEnv("FRONTEND_URL", "http://localhost:7777");
-const mailUser = accessEnv("MAIL_USER", "lelia.corwin@ethereal.email");
+const mailUser = accessEnv("MAIL_USER", "oscjrmwaah5gzxgg@ethereal.email");
 
 const transport = createTransport({
-  host: accessEnv("MAIL_HOST", "smtp.etheral.eamil"),
+  host: accessEnv("MAIL_HOST", "smtp.ethereal.email"),
   port: parseInt(accessEnv("MAIL_PORT", "587")),
   auth: {
     user: mailUser,
-    pass: accessEnv("MAIL_PASS", "36EuV1TTwnCfXyR5cK"),
+    pass: accessEnv("MAIL_PASS", "sdfguycvbjghv"),
   },
 });
 
